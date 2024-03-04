@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  //   sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media (max-width: 1024px) {
+  .hideME {
+    display: none !important;
+    position: relative !important;
+  }
+}
+
+@media (max-width: 1290px) {
+  .belowMe {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 786px) {
+  .bigBorder {
+    margin: 0.7em !important;
+  }
+  .smallBorder {
+    margin: 0.7em !important;
+  }
+  .WordsSize {
+    font-size: 16px;
+  }
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .centerTheseBtns {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .centerTheseBtns a {
+    margin-right: 0 !important;
+    margin-top: 1em !important;
+    padding: 1rem 0rem 1rem 0rem;
+    font-size: 16px;
+    width: 60%;
+  }
+  #JOIN {
+    // width: 100% !important;
+    padding: 1.5rem 5rem 1.5rem 5rem !important;
+  }
+  .centerTheseBtns button {
+    text-align: center;
+    margin-right: 0 !important;
+    margin-top: 1em !important;
+    padding: 1rem 0rem 1rem 0rem;
+    font-size: 16px;
+    width: 100%;
+  }
+  .centerTheseBtns img {
+    width: 80% !important;
+  }
+  .checkerImg {
+    background-image: none !important;
+  }
+  ._2EBbg {
+    width: 70px !important;
+    height: 90px !important;
+    margin-bottom: 5px;
+  }
+  ._2aOn7 {
+    font-size: 14px !important;
+  }
+  ._1tbqx ._3cpN7 {
+    font-size: 50px !important;
+  }
+}
+
+._2EBbg {
+  border-color: solid #1a1a1a 3px;
+  border-radius: 10px;
+}
+._106d2,
+._SKh-V {
+  background-image: url("../src/assets/testnet-img/color1.png") !important;
+}
+
+._2v-d4 {
+  background-image: url("../src/assets/testnet-img/color1.png") !important;
+}
+._3cpN7 {
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+}
+
+.HoverMeBtn1:hover {
+  background: #57fbbb !important;
+}
+.HoverMeBtn2:hover {
+  background: #5dd6ff !important;
+}

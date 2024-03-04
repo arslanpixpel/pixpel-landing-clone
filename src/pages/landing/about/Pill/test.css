@@ -1,0 +1,318 @@
+/* MAIN CENTER CSS */
+
+#main-image {
+    position: relative;
+    top: 5.9rem;
+    left: 5.96rem
+}
+
+@media (max-width : 1440px) {
+    #main-image {
+        position: absolute;
+    width: 100%;
+    padding: 4.1vw;
+    top: 0.12rem;
+    left: 0rem;
+       
+    } 
+}
+
+.Gamedashboard-content {
+    /* display: flex;
+    justify-content: center; */
+    margin: 6em 0 1em 0;
+    text-align: center;
+    
+}
+.Gamedashboard-content .main-bg {
+    border-radius: 19em;
+    padding-top: 1em;
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.01) 20%, rgba(255, 255, 255, 0.03) 40%, rgba(255, 255, 255, 0.07) 59%, rgba(255, 255, 255, 0.12) 79%, rgba(255, 255, 255, 0.18) 98%, rgba(255, 255, 255, 0.19) 100%);
+    position: relative;
+    z-index: 1;
+}
+.Gamedashboard-content .headline {
+    color: #FFF;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 47.888px;
+padding: 5px 0px 0px 0px;
+}
+
+.Gamedashboard-content .headline::before {
+    content: '';
+    position: absolute;
+    width: 25.5%;
+    height: 1px;
+    bottom: 0;
+    right: 37%;
+    top: 2em;
+    border-bottom: 0.1px solid #FFF;
+}
+
+.Gamedashboard-content .headline-tag {
+    color: #FFF;
+    position: relative;
+    top: 1.9em;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26.605px;
+}
+
+.Gamedashboard-content .main-box {
+    display: flex;
+    justify-content: center;
+}
+.Gamedashboard-content .main-box .main-paragraph {
+    color: #FFF;
+font-family: Poppins;
+width: 886px;
+font-size: 18px;
+text-align: justify;
+top: 4em;
+position: relative;
+font-style: normal;
+font-weight: 400;
+line-height: 150.523%; /* 27.094px */
+}
+
+.Gamedashboard-content .bg-image {
+
+}
+.Gamedashboard-content .top-list-div {
+    display: flex;
+    justify-content: center;
+    width: 72%;
+    position: relative;
+    top: 9vh;
+}
+
+/* Bottom List  */
+.Gamedashboard-content .bottom-list-div {
+    display: flex;
+    justify-content: flex-end;
+    width: 89%;
+    position: relative;
+    top: -10vh;
+}
+
+@media(max-width: 1920px){
+
+    .Gamedashboard-content .bottom-list-div {
+    top: -9vh !important;
+}
+.Gamedashboard-content .top-list-div {
+    top: 10vh !important;
+}
+}
+
+.Gamedashboard-content .bottom-list-div .main-list-div ul {
+    list-style-type: disc;
+    width: 89% !important;
+
+}
+/* Bottom List End */
+.Gamedashboard-content .main-list-div {
+    width: 448px;
+    text-align: justify;
+}
+.Gamedashboard-content .main-list-div ul {
+    list-style-type: disc;
+
+}
+.Gamedashboard-content .main-list-div li {
+    color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150.523%; /* 27.094px */
+}
+
+/* MAIN PILL CSS  */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.imagemap {
+    position: relative;
+    z-index: 2;
+}
+
+.imagemap img {
+    display: block;
+}
+
+.imagemap .area {
+    display: block;
+    position: absolute;
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .imagemap .area-inventory:hover {
+        width: 19.25% !important;
+        height: 34.42% !important;
+    }
+    .imagemap .area-gameDashboard:hover {
+        top: 0.41% !important; 
+        left: 35.51% !important;
+        width: 31.85% !important;
+        height: 11.80% !important;
+    }
+    
+.imagemap .area-cex:hover {
+    width: 9.80% !important;
+}
+.imagemap .area-dex:hover {
+    height: 18.29% !important;
+    left: 0.26% !important; 
+}
+/* .imagemap .area-launchpad2:hover {
+    height: 38.98% !important;
+} */
+.imagemap .area-nftfeature:hover {
+    width: 22.31%;
+    height: 13.40%;
+}
+.imagemap .area-nftmarket:hover {
+    height: 13.5%;
+}
+
+}
+
+
+
+.imagemap .area-inventory:hover {
+    
+background-size: cover !important;
+    background: no-repeat;
+    /* background-position-y: -15px ;
+    background-size: 19.3em 18em; */
+    background-position: center;
+    background-image: url('../../../../assets/bg_images/inventory-hover.svg');
+}
+.imagemap .area-gameDashboard:hover {
+  
+background-size: cover !important;
+    background: no-repeat;
+    /* background-position-x: -0.24em;
+    background-position-y: -20px;
+    background-size: 30.3em 28em; */
+    background-image: url('../../../../assets/bg_images/gameDashboard-hover.svg');
+}
+
+.imagemap .area-wallet:hover {
+    top: 0.23% !important;
+background-size: cover !important;
+    background: no-repeat;
+    /* background-position-x: 61% !important;
+    background-position-y: 20% !important;
+    background-size: 18.3em; */
+    background-position: center;
+    background-image: url('../../../../assets/bg_images/wallet-hover..svg');
+}
+
+.imagemap .area-cex:hover {
+    background-size: cover !important;
+    background: no-repeat;
+    /* background-position-x: 16% !important;
+    background-position-y: 9% !important;
+    background-size: 21.5em 20.5em; */
+    background-position: center;
+    background-image: url('../../../../assets/bg_images/cex-hover.svg');
+}
+
+.imagemap .area-dex:hover {
+
+background-size: cover !important;
+    background: no-repeat;
+    /* background-position-x: -18px ;
+    background-position-y: -18.5px !important;
+    background-size: 21.3em 19em; */
+    background-image: url('../../../../assets/bg_images/dex-hover.svg');
+}
+
+.imagemap .area-launchpad1:hover {
+background-size: cover !important;
+    background: no-repeat;
+    /* background-position-x: 31% !important;
+    background-position-y: 7% !important;
+    background-size: 21.5em 20.6em; */
+    background-position: center;
+    background-image: url('../../../../assets/bg_images/launchpad1-hover.svg');
+}
+
+.imagemap .area-launchpad2:hover {
+    height: 38.98% !important;
+background-size: cover !important;
+    background: no-repeat;
+    /* background-position-x: 17%;
+    background-position-y: 49% !important;
+    background-size: 24.9em 23.3em; */
+    background-image: url('../../../../assets/bg_images/launchpad2-hover.svg');
+}
+
+
+
+.imagemap .area-p2pmarket:hover {
+    /* left: 11.54% !important; */
+    width: 22.83% !important;
+    background-size: cover !important;
+    background: no-repeat;
+    /* background-position-x: 29% !important;
+    background-position-y: 36% !important;
+    background-size: 24.8em 23.6em; */
+    background-position: center;
+    background-image: url('../../../../assets/bg_images/p2pmarket-hover.svg');
+}
+
+
+.imagemap .area-nftfeature:hover {
+background-size: contain !important;
+    background: no-repeat;
+    /* background-position-x: 3% !important;
+    background-position-y: 3.5% !important;
+    background-size: 28em 25.9em; */
+    background-position: center;
+    background-image: url('../../../../assets/bg_images/nftfeature-hover.svg');
+}
+
+.imagemap .area-nftmarket:hover {
+background-size: cover !important;
+    background: no-repeat;
+    /* background-position-x: 5% !important;
+    background-position-y: 68% !important;
+    background-size: 20.8em 19.9em; */
+    background-position: center;
+    background-image: url('../../../../assets/bg_images/nftmarket-hover.svg');
+}
+
+.imagemap .area-tokenroom:hover {
+background-size: cover !important;
+    background: no-repeat;
+    /* background-position-x: 51% !important;
+    background-position-y: 36% !important;
+    background-size: 399px 373.6px; */
+    background-position: center;
+    background-image: url('../../../../assets/bg_images/tokenroom-hover.svg');
+}
+
+.imagemap .area-staking:hover {
+background-size: cover !important;
+    background: no-repeat;
+    /* background-position-x: 34% !important;
+    background-position-y: 32.1% !important;
+    background-size: 22em 20em; */
+    background-position: top;
+    background-image: url('../../../../assets/bg_images/staking-hover.svg');
+}
+

@@ -1,0 +1,11 @@
+
+.content::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -10px; 
+    height: 630px; 
+    background: linear-gradient(transparent, transparent 80%, rgba(224, 206, 206, 0.062));
+    filter: blur(10px);
+}

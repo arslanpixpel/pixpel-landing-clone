@@ -1,0 +1,2268 @@
+// Responsive Code
+
+// 👀 below is the code for mobile height responsive
+
+// Check'em Later
+// START
+#BubbleImage {
+  display: none !important;
+}
+//END
+
+@media (max-height: 844px) and (max-width: 415px) {
+  #road-line {
+    // width: 42.5px !important;
+    top: 33% !important;
+  }
+}
+
+// THIS WILL RUN UNTIL 1916px
+
+@media (min-width: 2130px) {
+  #kava-always {
+    display: flex;
+  }
+  #kava-sometimes {
+    display: none;
+  }
+}
+
+@media (max-width: 2130px) {
+  #kava-always {
+    display: none;
+  }
+}
+
+@media (min-width: 3040px) {
+  #roadmap {
+    height: 250vh !important;
+  }
+}
+
+@media (min-width: 1916px) {
+  #roadmap {
+    height: 260vh;
+  }
+
+  #road-head {
+    width: 20% !important;
+  }
+
+  #road-line {
+    width: 2.5% !important;
+    top: 24rem;
+  }
+
+  #road-date {
+    width: 65% !important;
+  }
+}
+
+// this will run after 1916
+@media (max-width: 1916px) {
+  #roadmap {
+    height: 270vh !important;
+  }
+}
+
+// this will run after 1600
+@media (max-width: 1600px) {
+  #roadmap {
+    height: 270vh !important;
+  }
+  #road-head {
+    width: 19% !important;
+  }
+
+  #road-line {
+    width: 2.4% !important;
+    top: 18rem;
+  }
+
+  #road-date {
+    width: 64% !important;
+  }
+}
+// this will run until 1148
+@media (max-width: 1148px) {
+  #purplePlanet {
+    width: 200px !important;
+  }
+  #road-line {
+    top: 16rem;
+  }
+}
+// this will run after 1000
+@media (max-width: 1000px) {
+  #roadmap {
+    height: 230vh !important;
+  }
+  #road-line {
+    top: 13rem;
+  }
+}
+// this will run after 800
+@media (max-width: 800px) {
+  #roadmap {
+    height: 210vh !important;
+  }
+}
+
+// Special Code Don't change
+
+@media (min-width: 2080px) {
+  #kava-new {
+    left: 26.5rem;
+    top: 18rem;
+  }
+}
+
+@media (max-width: 2085px) {
+  #kava-new {
+    top: 16rem;
+  }
+}
+
+@media (max-width: 1798px) {
+  #kava-new {
+    top: 14rem !important;
+  }
+}
+
+@media (max-width: 1750px) {
+  #kava-new {
+    top: 13.23rem !important;
+  }
+}
+
+// @media (max-width: 1685px ) {
+//   #kava-new {
+//     top: 14rem !important;
+//   }
+// }
+
+@media (max-width: 1625px) {
+  #font-top1 {
+    font-size: 50px;
+  }
+
+  #font-top2 {
+    font-size: 50px;
+  }
+
+  #font-para {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1206px) {
+  #kava-new {
+    top: 10rem !important;
+  }
+}
+
+@media (max-width: 976px) {
+  #kava-new {
+    top: 14rem !important;
+  }
+}
+
+@media (max-width: 1364px) {
+  .banner-bg {
+    position: absolute;
+    top: 0rem !important;
+  }
+  .banner-bg {
+    position: absolute;
+    bottom: 0rem !important;
+  }
+}
+
+@media (max-width: 975px) {
+  #bottom-blur {
+    margin-top: 126% !important;
+  }
+  #text-feild {
+    margin-top: 8px;
+    padding-bottom: 30px;
+  }
+  .banner-bg {
+    position: absolute;
+    bottom: 0rem !important;
+  }
+  #button-top {
+    display: flex;
+    justify-content: center;
+  }
+  #font-top1 {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  #font-top2 {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  #font-para {
+    text-align: center;
+    font-size: 13px;
+  }
+}
+@media (max-width: 1442px) {
+  #font-top1 {
+    font-size: 50px;
+  }
+
+  #font-top2 {
+    font-size: 50px;
+  }
+
+  #font-para {
+    font-size: 16px;
+  }
+  #kava-new {
+    top: 9rem !important;
+  }
+}
+@media (max-width: 1100px) {
+  #kava-new {
+    top: 8rem !important;
+  }
+}
+@media (max-width: 768px) {
+  #kava-new {
+    top: 11rem !important;
+  }
+}
+
+@media (max-width: 626px) {
+  #kava-new {
+    top: 8rem !important;
+  }
+}
+
+@media (max-width: 975px) {
+  #kava-nav {
+    top: 6rem !important;
+  }
+}
+
+@media screen and (min-width: 3000px) {
+  #team {
+    margin-top: 57rem !important;
+  }
+  #team-head {
+    top: 62rem !important ;
+  }
+  .tokenomic-lines {
+    margin-top: 10% !important;
+  }
+  #bg-hero {
+    width: 3440px;
+    // margin-top: 9em;
+    margin-left: 10px;
+  }
+  #team {
+    background-position-y: center !important ;
+  }
+  #checker {
+    position: relative;
+    left: 20vw !important;
+  }
+  #kava-new {
+    left: 24rem;
+    top: 18rem;
+  }
+  #road-line {
+    width: 2.5% !important;
+    top: 32rem;
+  }
+}
+
+@media screen and (max-width: 2560px) {
+  #team {
+    background-position-y: center !important ;
+    margin-top: 17rem !important;
+  }
+  #team-head {
+    top: 19rem !important ;
+  }
+  html {
+    overflow-x: hidden !important;
+  }
+
+  #kava-btn {
+    top: 30vh !important;
+    margin-left: -26px !important;
+  }
+
+  .tokenomic-lines {
+    margin-top: 10% !important;
+  }
+
+  .line-token {
+    margin-top: 100%;
+  }
+
+  #bg-hero {
+    width: 2400px;
+    // margin-top: 9em;
+    margin-left: 10px;
+  }
+
+  .bg-unlock {
+    padding-top: 16.7%;
+  }
+
+  #no-title {
+    left: 3.5vw !important;
+  }
+
+  #purple-planet-road {
+    top: 169em;
+  }
+
+  .bubbles {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 2246px) {
+  html {
+    overflow-x: hidden !important;
+  }
+
+  #kava-btn div {
+    margin-left: 83% !important;
+    // top: 31% !important;
+    margin-top: 15vh !important;
+    left: 1vw;
+  }
+
+  #bg-hero {
+    width: 100% !important;
+    margin-top: -10vh;
+  }
+
+  #no-title {
+    left: 4.5vw !important;
+  }
+}
+
+@media screen and (max-width: 2023.5px) {
+  html {
+    overflow-x: hidden !important;
+  }
+
+  #bg-hero {
+    width: 100% !important;
+  }
+
+  #no-title {
+    left: 4.5vw !important;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  //  .banner-bg .responsive img {
+  //   width: 50vw !important;
+  //  }
+  .bubbles {
+    width: 100% !important;
+    margin-top: -27em;
+  }
+
+  .main .background {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  #no-title {
+    left: 3.5vw !important;
+  }
+
+  #kava-btn {
+    top: 37vh !important;
+  }
+
+  #kava-btn div {
+    margin-left: 81% !important;
+  }
+
+  #about {
+    margin-bottom: 10% !important;
+  }
+
+  #team {
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    background-size: cover !important;
+  }
+
+  .tokenomic-lines {
+    margin-top: 10% !important;
+  }
+
+  // #team-mid-sec {
+  //   margin-top: 4% !important;
+  // }
+
+  #line-token {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .bg-unlock {
+    padding-top: 16.8%;
+  }
+
+  html {
+    overflow-x: hidden !important;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  #kava-btn {
+    top: 30vh !important;
+    margin-left: -11px !important;
+  }
+  #team-head {
+    top: 22rem !important ;
+  }
+  html {
+    overflow-x: hidden !important;
+  }
+
+  .bg-unlock {
+    padding-top: 19% !important;
+  }
+
+  .tokenomic-lines {
+    margin-top: 5vh !important;
+  }
+
+  .bg-blur {
+    margin-top: 1vh !important;
+  }
+
+  #kava-btn div {
+    margin-left: 83% !important;
+    top: 41% !important;
+    margin-top: -4vh !important;
+    width: 100%;
+    left: 1%;
+  }
+
+  #no-title {
+    top: 8.7vh;
+    left: 5vw !important;
+  }
+
+  #bg-hero {
+    margin-top: 6vh !important;
+    left: 4vw;
+  }
+}
+
+@media screen and (max-width: 1886px) {
+  html {
+    overflow-x: hidden !important;
+  }
+
+  #kava-btn div {
+    margin-left: 83% !important;
+    top: 41% !important;
+    width: 100%;
+    left: 4%;
+  }
+
+  #bg-hero {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 1686px) {
+  #kava-btn {
+    top: 14rem !important;
+  }
+  #kava-btn div {
+    margin-left: 81% !important;
+    top: 47% !important;
+    width: 100% !important;
+    left: 4%;
+    margin-top: -33px;
+  }
+
+  #no-title {
+    left: 5.5vw !important;
+  }
+
+  #bg-hero {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  html {
+    overflow-x: hidden !important;
+  }
+
+  #Heading-Team {
+    margin-top: -22vh !important;
+  }
+
+  // .imagemap .area-inventory:hover {
+  //   background: no-repeat;
+  //   // background-position-x: -13px !important;
+  //   background-position-y: -8.8px !important;
+  //   background-size: 203px 184px !important;
+  //   background-position: center;
+  //   background-image: url('./assets/bg_images/inventory-hover.png');
+  // }
+
+  // .imagemap .area-gameDashboard:hover {
+  //   background-position-y: -13px !important;
+  //   background-size: 20em 18.2em !important;
+  //   background-image: url('./assets/bg_images/gameDashboard-hover.png');
+  // }
+
+  // .imagemap .area-wallet:hover {
+  //   background: no-repeat;
+  //   background-position-x: 61% !important;
+  //   background-position-y: 20% !important;
+  //   background-size: 12em 10.6em !important;
+  //   background-position: center;
+  //   background-image: url('./assets/bg_images/wallet-hover.png');
+  // }
+
+  // .imagemap .area-cex:hover {
+  //   background: no-repeat;
+  //   background-position-x: 16% !important;
+  //   background-position-y: 9% !important;
+  //   background-size: 13.7em 13.5em !important;
+  //   /* background-position: center; */
+  //   background-image: url('./assets/bg_images/cex-hover.png');
+  // }
+
+  // .imagemap .area-dex:hover {
+  //   background: no-repeat;
+  //   background-position-x: -11px !important;
+  //   background-size: 13.5em 13.5em !important;
+  //   background-image: url('./assets/bg_images/dex-hover.png');
+  // }
+
+  // .imagemap .area-launchpad1:hover {
+  //   background: no-repeat;
+  //   background-position-x: 31% !important;
+  //   background-position-y: 7% !important;
+  //   background-size: 14em 13.1em !important;
+  //   background-position: center;
+  //   background-image: url('./assets/bg_images/launchpad1-hover.png');
+  // }
+
+  // .imagemap .area-launchpad2:hover {
+  //   background: no-repeat;
+  //   background-position-x: 17%;
+  //   background-position-y: 49% !important;
+  //   background-size: 16em 15em !important;
+  //   background-image: url('./assets/bg_images/launchpad2-hover.png');
+  // }
+
+  // .imagemap .area-p2pmarket:hover {
+  //   background: no-repeat;
+  //   background-position-x: 29% !important;
+  //   background-position-y: 36% !important;
+  //   background-size: 15.9em 14.9em !important;
+  //   background-position: center;
+  //   background-image: url('./assets/bg_images/p2pmarket-hover.png');
+  // }
+
+  // .imagemap .area-nftfeature:hover {
+  //   background: no-repeat;
+  //   background-position-x: 3% !important;
+  //   background-position-y: 3.5% !important;
+  //   background-size: 18.3em 16.4em !important;
+  //   background-position: center;
+  //   background-image: url('./assets/bg_images/nftfeature-hover.png');
+  // }
+
+  // .imagemap .area-nftmarket:hover {
+  //   background: no-repeat;
+  //   background-position-x: 5% !important;
+  //   background-position-y: 68% !important;
+  //   background-size: 13.6em 12.9em !important;
+  //   background-position: center;
+  //   background-image: url('./assets/bg_images/nftmarket-hover.png');
+  // }
+
+  // .imagemap .area-tokenroom:hover {
+  //   background: no-repeat;
+  //   background-position-x: 51% !important;
+  //   background-position-y: 36% !important;
+  //   background-size: 256px 250px !important;
+  //   background-position: center;
+  //   background-image: url('./assets/bg_images/tokenroom-hover.png');
+  // }
+
+  // .imagemap .area-staking:hover {
+  //   background: no-repeat;
+  //   background-position-x: 34% !important;
+  //   background-position-y: 32.1% !important;
+  //   background-size: 14.4em 13.1em !important;
+  //   background-position: top;
+  //   background-image: url('./assets/bg_images/staking-hover.png');
+  // }
+
+  #no-title {
+    left: 3.8vw !important;
+    top: 6.8vh !important;
+    width: 87%;
+  }
+
+  .bg-lock .image {
+    width: 60% !important;
+    margin-left: 18.5% !important;
+  }
+
+  .bg-unlock {
+    width: 37% !important;
+    padding-top: 14% !important;
+  }
+
+  .imagemap {
+    width: 62% !important;
+  }
+
+  // #roadmap {
+  //   height: 205vh!important;
+  // }
+
+  //   #road-head {
+  //     width: 20% !important;
+  //   }
+
+  //   #road-line {
+  //     top: 28vh;
+  //     width: 32px!important;
+  // }
+
+  // #road-date {
+  //   width: 55%!important;
+  // }
+
+  #bg-hero {
+    margin-top: -2% !important;
+    width: 90% !important;
+  }
+
+  // #kava-btn div {
+  //   margin-left: 81% !important;
+  //   top: 46% !important;
+  //   width: 100% !important;
+  //   left: 2em !important;
+  //   margin-top: 20px !important;
+  // }
+
+  #blues-token {
+    margin-top: 40% !important;
+  }
+
+  #font-top1 {
+    font-size: 50px;
+  }
+
+  #font-top2 {
+    font-size: 50px;
+  }
+
+  #font-para {
+    font-size: 16px;
+  }
+
+  #bg-hero {
+    margin-top: 0% !important;
+  }
+
+  #about {
+    margin-bottom: 0% !important;
+    padding-bottom: none;
+  }
+
+  .content-about::before,
+  .content-about::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 40px;
+    filter: blur(10px);
+  }
+
+  #Nav-Pill-main {
+    padding-top: none !important;
+    padding-bottom: none !important;
+  }
+
+  #blues-token {
+    margin-top: 37% !important;
+  }
+
+  #purple-planet-road {
+    top: 130em;
+  }
+
+  #footer-logo {
+    width: 537px;
+  }
+
+  .bubbles {
+    margin-top: -13em;
+  }
+}
+
+@media screen and (max-width: 1349px) {
+  #bg-hero {
+    margin-top: -6%;
+    margin-left: 0%;
+    width: 100% !important;
+  }
+
+  html {
+    overflow-x: hidden !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #team-head {
+    top: 15rem !important;
+  }
+  #new-kava {
+    right: 15% !important;
+  }
+
+  #partner-img {
+    width: 100%;
+  }
+
+  #partners-main {
+    width: 100%;
+  }
+
+  html {
+    overflow-x: hidden !important;
+  }
+
+  .navBar a {
+    font-size: 16px !important;
+  }
+
+  .imagemap {
+    width: 62% !important;
+  }
+
+  #img1 {
+    width: 100.191px !important;
+    height: 99.602px !important;
+  }
+
+  #img2 {
+    width: 171.671px !important;
+    height: 170.646px !important;
+    left: 80%;
+    opacity: 0.7;
+  }
+
+  #img3 {
+    width: 220.606px;
+    height: 220.913px;
+    margin-top: 69%;
+  }
+
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .tokenomic-lines {
+    margin-top: -5% !important;
+  }
+
+  #tokonomic-top-bubbles {
+    margin-top: 20% !important;
+  }
+
+  .bg-lock .image {
+    width: 60% !important;
+    margin-left: 15.5%;
+    margin-top: -1vh !important;
+  }
+
+  .bg-unlock {
+    width: 54% !important;
+  }
+
+  // #main-partner {
+  //  width: 70%;
+  //  margin: 2em;
+  // }
+  #main-partner a {
+    font-size: 22px !important;
+  }
+
+  #bg-hero {
+    width: 100% !important;
+  }
+
+  // .imagemap .area-inventory:hover {
+  //   background: no-repeat;
+  //   background-position-y: 0px !important;
+  //   // background-size: 145px 131px !important;
+  //   background-position: center;
+  //   background-image: url('./assets/bg_images/inventory-hover.png');
+  // }
+
+  // .imagemap .area-gameDashboard:hover {
+  //   background-position-y: 0px !important;
+  //   // background-size: 14.3em 14em !important;
+  //   // background-image: url('./assets/bg_images/gameDashboard-hover.png');
+  // }
+
+  // .imagemap .area-wallet:hover {
+  //   background: no-repeat;
+  //   background-position-x: 61% !important;
+  //   background-position-y: 20% !important;
+  //   background-size: 8.2em 7.6em !important;
+  //   background-position: center;
+  //   background-image: url('./assets/bg_images/wallet-hover.png');
+  // }
+
+  // .imagemap .area-cex:hover {
+  //   background: no-repeat;
+  //   background-position-x: 16% !important;
+  //   background-position-y: 9% !important;
+  //   background-size: 9.5em 9.5em !important;
+  //   /* background-position: center; */
+  //   background-image: url('./assets/bg_images/cex-hover.png');
+  // }
+
+  // .imagemap .area-dex:hover {
+  //   background: no-repeat;
+  //   background-position-x: 0px !important;
+  //   background-size: 10.2em 10.6em !important;
+  //   background-image: url('./assets/bg_images/dex-hover.png');
+  // }
+
+  // .imagemap .area-launchpad1:hover {
+  //   background: no-repeat;
+  //   background-position-x: 31% !important;
+  //   background-position-y: 7% !important;
+  //   background-size: 10em 9.4em !important;
+  //   background-position: center;
+  //   background-image: url('./assets/bg_images/launchpad1-hover.png');
+  // }
+
+  // .imagemap .area-launchpad2:hover {
+  //   background: no-repeat;
+  //   background-position-x: 17%;
+  //   background-position-y: 49% !important;
+  //   background-size: 12em 10.9em !important;
+  //   background-image: url('./assets/bg_images/launchpad2-hover.png');
+  // }
+
+  // .imagemap .area-p2pmarket:hover {
+  //   background: no-repeat;
+  //   background-position-x: 29% !important;
+  //   background-position-y: 36% !important;
+  //   background-size: 11.6em 10.9em !important;
+  //   background-position: center;
+  //   background-image: url('./assets/bg_images/p2pmarket-hover.png');
+  // }
+
+  // .imagemap .area-nftfeature:hover {
+  //   background: no-repeat;
+  //   background-position-x: 3% !important;
+  //   background-position-y: 3.5% !important;
+  //   background-size: 13em 11.9em !important;
+  //   background-position: center;
+  //   background-image: url('./assets/bg_images/nftfeature-hover.png');
+  // }
+
+  // .imagemap .area-nftmarket:hover {
+  //   background: no-repeat;
+  //   background-position-x: 5% !important;
+  //   background-position-y: 68% !important;
+  //   background-size: 9.6em 8.9em !important;
+  //   background-position: center;
+  //   background-image: url('./assets/bg_images/nftmarket-hover.png');
+  // }
+
+  // .imagemap .area-tokenroom:hover {
+  //   background: no-repeat;
+  //   background-position-x: 51% !important;
+  //   background-position-y: 36% !important;
+  //   background-size: 187px 177px !important;
+  //   background-position: center;
+  //   background-image: url('./assets/bg_images/tokenroom-hover.png');
+  // }
+
+  // .imagemap .area-staking:hover {
+  //   background: no-repeat;
+  //   background-position-x: 34% !important;
+  //   background-position-y: 32.1% !important;
+  //   background-size: 10.3em 9.5em !important;
+  //   background-position: top;
+  //   background-image: url('./assets/bg_images/staking-hover.png');
+  // }
+
+  #team-mid-sec {
+    margin-top: -5% !important;
+  }
+
+  #kava-btn div {
+    margin-left: 81% !important;
+    width: 100% !important;
+    left: 18% !important;
+    margin-top: 16px !important;
+  }
+
+  #no-title {
+    left: 3.6vw !important;
+    top: 6vh !important;
+    width: 87%;
+  }
+
+  // #roadmap {
+  //   height: 200vh !important;
+  // }
+
+  // #road-head {
+  //   width: 30% !important;
+  // }
+
+  // // #road-line {
+  // //   width: 28px !important;
+  // //   top: 15rem
+  // // }
+
+  // #road-date {
+  //   width: 70% !important;
+  // }
+
+  #team-item-div {
+    overflow-x: hidden !important;
+  }
+
+  #team-item-div #top {
+    width: 160px !important;
+  }
+
+  #team-item-div h6 {
+    font-size: 15pt !important;
+  }
+
+  #team-item-div h5 {
+    font-size: 17pt;
+  }
+
+  #blues-token {
+    margin-top: 53% !important;
+  }
+
+  #font-top1 {
+    font-size: 28px;
+  }
+
+  #font-top2 {
+    font-size: 28px;
+  }
+
+  #font-para {
+    font-size: 13px;
+  }
+
+  #bg-hero {
+    width: 100% !important;
+    margin-top: 1% !important;
+    margin-left: -5vw !important;
+  }
+
+  #about {
+    margin-bottom: 0% !important;
+    padding-bottom: none;
+  }
+
+  .content-about::before,
+  .content-about::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 40px;
+    filter: blur(10px);
+  }
+
+  #Nav-Pill-main {
+    padding-top: none !important;
+    padding-bottom: none !important;
+  }
+
+  #purple-planet-road {
+    top: 120em;
+  }
+
+  #footer-logo {
+    width: 410p x;
+  }
+
+  .bubbles {
+    margin-top: 1em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mob-screen-nav {
+    display: none !important;
+  }
+  #purplePlanet {
+    display: none !important;
+  }
+
+  .road-map-mobile {
+    display: none !important;
+  }
+
+  .mob-token {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    overflow-x: hidden !important;
+  }
+
+  #team-mid-sec #heading {
+    font-size: 40px !important;
+  }
+
+  .mob-token {
+    display: flex !important;
+  }
+
+  .tokenomics {
+    display: none;
+  }
+
+  #roadmap {
+    display: none !important;
+  }
+
+  .road-map-mobile {
+    display: flex !important;
+  }
+
+  .main-screen-nav {
+    display: none;
+  }
+
+  .mob-screen-nav {
+    // background-color: #1f2630;
+    display: flex !important;
+  }
+  .header-bg {
+    background: #1d2630 !important;
+    position: fixed;
+    top: 0;
+  }
+
+  #img1 {
+    width: 50.191px !important;
+    height: 49.602px !important;
+  }
+
+  #img2 {
+    width: 91.671px !important;
+    height: 90.646px !important;
+    left: 80%;
+    opacity: 0.7;
+  }
+
+  #img3 {
+    width: 120.606px;
+    height: 120.913px;
+    margin-top: 69%;
+  }
+
+  #green-left-partner {
+    margin-top: 105vh !important;
+  }
+
+  #green-ball-partner {
+  }
+
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .tokenomic-lines {
+    margin-top: -5% !important;
+  }
+
+  #tokonomic-top-bubbles {
+    margin-top: 20% !important;
+  }
+
+  .bg-lock .image {
+    width: 40% !important;
+    margin-left: 15.8%;
+    margin-top: -1vh !important;
+  }
+
+  .bg-unlock {
+    width: 49% !important;
+  }
+
+  // #main-partner {
+  //  width: 80%;
+  //  margin: 2em;
+  // }
+
+  #partner-img {
+    width: 193px !important;
+  }
+
+  #main-partner a {
+    font-size: 12px !important;
+  }
+
+  #bg-hero {
+    width: 100% !important;
+  }
+
+  .imagemap .area-inventory:hover {
+    background: no-repeat;
+    background-position-y: 15px !important;
+    background-size: 12.5em 12em !important;
+    background-position: center;
+    background-image: none !important;
+  }
+
+  .imagemap .area-gameDashboard:hover {
+    background: no-repeat;
+    background-position-x: -0.24em;
+    background-position-y: -20px !important;
+    background-size: 21.3em 21em !important;
+    background-image: none !important;
+  }
+
+  .imagemap .area-wallet:hover {
+    background: no-repeat;
+    background-position-x: 61% !important;
+    background-position-y: 20% !important;
+    background-size: 11.9em 10.6em !important;
+    background-position: center;
+    background-image: none !important;
+  }
+
+  .imagemap .area-cex:hover {
+    background: no-repeat;
+    background-position-x: 16% !important;
+    background-position-y: 9% !important;
+    background-size: 14.5em 13.5em !important;
+    /* background-position: center; */
+    background-image: none !important;
+  }
+
+  .imagemap .area-dex:hover {
+    background: no-repeat;
+    background-position-x: -18px !important;
+    background-position-y: -18.5px !important;
+    background-size: 14.5em 13.3em !important;
+    background-image: none !important;
+  }
+
+  .imagemap .area-launchpad1:hover {
+    background: no-repeat;
+    background-position-x: 31% !important;
+    background-position-y: 7% !important;
+    background-size: 14em 13em !important;
+    background-position: center;
+    background-image: none !important;
+  }
+
+  .imagemap .area-launchpad2:hover {
+    background: no-repeat;
+    background-position-x: 17%;
+    background-position-y: 49% !important;
+    background-size: 16.5em 15.3em !important;
+    background-image: none !important;
+  }
+
+  .imagemap .area-p2pmarket:hover {
+    background: no-repeat;
+    background-position-x: 29% !important;
+    background-position-y: 36% !important;
+    background-size: 16.8em 15.6em !important;
+    background-position: center;
+    background-image: none !important;
+  }
+
+  .imagemap .area-nftfeature:hover {
+    background: no-repeat;
+    background-position-x: 3% !important;
+    background-position-y: 3.5% !important;
+    background-size: 19em 16.9em !important;
+    background-position: center;
+    background-image: none !important;
+  }
+
+  .imagemap .area-nftmarket:hover {
+    background: no-repeat;
+    background-position-x: 5% !important;
+    background-position-y: 68% !important;
+    background-size: 13.4em 12.9em !important;
+    background-position: center;
+    background-image: none !important;
+  }
+
+  .imagemap .area-tokenroom:hover {
+    background: no-repeat;
+    background-position-x: 51% !important;
+    background-position-y: 36% !important;
+    background-size: 230px 202.6px !important;
+    background-position: center;
+    background-image: none !important;
+  }
+
+  .imagemap .area-staking:hover {
+    background: no-repeat;
+    background-position-x: 34% !important;
+    background-position-y: 32.1% !important;
+    background-size: 14.3em 13em !important;
+    background-position: top;
+    background-image: none !important;
+  }
+
+  // #team-mid-sec {
+  //   margin-top: -12% !important;
+  // }
+
+  #kava-btn div {
+    margin-left: 28% !important;
+    width: 100% !important;
+    left: 18% !important;
+    margin-top: 104px !important;
+  }
+
+  .imagemap {
+    margin-top: -10vh;
+  }
+
+  #no-title {
+    left: 4.5vw !important;
+    top: 6.23vh !important;
+    width: 86%;
+  }
+
+  #token-heading h1 {
+    font-size: 35px;
+  }
+
+  #token-heading p {
+    font-size: 20px;
+    margin-top: -10vh;
+  }
+
+  #road-head {
+    width: 50% !important;
+  }
+
+  #road-line {
+    width: 42.5px !important;
+    top: 40vh;
+  }
+
+  #road-date {
+    width: 217.265px !important;
+  }
+
+  #team-item-div {
+    overflow-x: hidden !important;
+  }
+
+  #team-item-div #top {
+    width: 160px !important;
+  }
+
+  #team-item-div h6 {
+    font-size: 15pt !important;
+  }
+
+  #team-item-div h5 {
+    font-size: 17pt;
+  }
+
+  #blues-token {
+    margin-top: 53% !important;
+  }
+
+  #text-feild {
+    margin-top: 8px;
+  }
+
+  // #bottom-blur {
+  //   margin-top: 95% !important;
+  // }
+
+  #about-text-sec h1 {
+    font-size: 35px;
+  }
+
+  #about-text-sec p {
+    font-size: 20px;
+    margin-top: -10vh;
+  }
+
+  #font-top1 {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  #font-top2 {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  #font-para {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  #bg-hero {
+    width: 80% !important;
+    margin-top: 3%;
+  }
+
+  #button-top {
+    display: flex;
+    justify-content: center;
+  }
+
+  #about {
+    margin-bottom: 0% !important;
+    padding-bottom: none;
+  }
+
+  .content-about::before,
+  .content-about::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 40px;
+    filter: blur(10px);
+  }
+
+  #Nav-Pill-main {
+    padding-top: none !important;
+    padding-bottom: none !important;
+  }
+
+  #purple-planet-road {
+    top: 120em;
+  }
+
+  #footer-logo {
+    width: 300px;
+  }
+
+  .bubbles {
+    margin-top: 1em;
+  }
+}
+@media (max-height: 932px) and (max-width: 430px) {
+  #bg-blur {
+    min-height: 62vh !important;
+  }
+  #list-mob-div {
+    top: 10% !important;
+  }
+  .road-map-mobile {
+    height: 152vh !important;
+  }
+  #road-line {
+    width: 42.5px !important;
+    top: 35% !important;
+  }
+  .mob-token .tokenomic-lines {
+    margin-top: -40% !important;
+  }
+}
+
+@media (max-height: 896px) and (max-width: 430px) {
+  #list-mob-div {
+    top: 15% !important;
+  }
+  #bg-blur {
+    min-height: 62vh !important;
+  }
+  .road-map-mobile {
+    height: 152vh !important;
+  }
+  #road-line {
+    width: 42.5px !important;
+    top: 33.7% !important;
+  }
+}
+@media (max-height: 893px) and (max-width: 430px) {
+  #road-line {
+    width: 42.5px !important;
+    top: 32.3% !important;
+  }
+}
+
+@media (max-height: 844px) and (max-width: 430px) {
+  #bg-blur {
+    min-height: 62vh !important;
+  }
+  .road-map-mobile {
+    height: 152vh !important;
+  }
+  #road-line {
+    width: 42.5px !important;
+    top: 32.2% !important;
+  }
+}
+
+@media (max-height: 916px) and (max-width: 430px) {
+  #bg-blur {
+    min-height: 62vh !important;
+  }
+  .road-map-mobile {
+    height: 152vh !important;
+  }
+  #road-line {
+    width: 42.5px !important;
+    top: 36% !important;
+  }
+}
+
+@media (max-height: 916px) and (max-width: 412px) {
+  #bg-blur {
+    min-height: 62vh !important;
+  }
+  .road-map-mobile {
+    height: 152vh !important;
+  }
+  #road-line {
+    width: 40.5px !important;
+    top: 36% !important;
+  }
+}
+
+@media (max-height: 740px) and (max-width: 360px) {
+  #bg-blur {
+    min-height: 62vh !important;
+  }
+  .road-map-mobile {
+    height: 162vh !important;
+  }
+  #road-line {
+    width: 42.5px !important;
+    top: 30.5% !important;
+  }
+}
+
+// @media (max-height: 932px) and (max-width: 430px) {
+//   #bg-blur {
+//     min-height: 62vh !important;
+//   }
+//   #list-mob-div {
+//     top: 10% !important;
+//   }
+//   .road-map-mobile {
+//     height: 152vh !important;
+//   }
+//   #road-line {
+//     width: 42.5px !important;
+//     top: 35% !important;
+//   }
+//   .tokenomic-lines {
+//     margin-top: -70% !important;
+//   }
+// }
+
+// @media (max-height: 532px) and (max-width: 430px) {
+//   .tokenomic-lines {
+//     margin-top: -30% !important;
+//   }
+// }
+// @media screen and (max-height: 740px) and (max-width: 430px) {
+//   .road-map-mobile {
+//     height: 170vh !important;
+//   }
+//   #road-line {
+//     // width: 39.5px !important;
+//     top: 38.3vh !important;
+//   }
+// }
+
+// @media screen and (max-height: 568px){
+//   #bg-blur {
+//     min-height: 66vh !important;
+//   }
+//   .road-map-mobile {
+//     height: 170vh !important;
+// }
+// #road-line {
+//   // width: 39.5px !important;
+//   top: 38.3vh !important
+// }
+// }
+
+// @media (max-height: 667px) and (max-width: 430px) {
+//   #bg-blur {
+//     min-height: 62vh !important;
+//   }
+//   .road-map-mobile {
+//     height: 180vh !important;
+//   }
+//   #road-line {
+//     width: 42.5px !important;
+//     top: 35% !important;
+//   }
+//   #road-head {
+//     width: 60% !important;
+//   }
+
+//   #road-date {
+//     width: 56vw !important;
+//   }
+//   #road-line {
+//     top: 27% !important;
+//     width: 40px !important;
+//     left: -24px !important;
+//   }
+// }
+
+@media (max-height: 568px) {
+  .road-map-mobile {
+    height: 275vh !important;
+  }
+  #road-line {
+    // width: 40px !important;
+    top: 22% !important;
+  }
+}
+
+@media screen and (min-width: 431px) {
+  .planet {
+    display: none !important;
+  }
+  #plant {
+    display: none !important;
+  }
+  .banner-nav {
+    display: none !important;
+  }
+
+  .mySwiper {
+    display: none !important;
+  }
+
+  .bg-bubbles-team-nav {
+    display: none !important;
+  }
+
+  #partner-heading-nav,
+  #purple-nav-planet,
+  #nav-planet-mob {
+    display: none !important;
+  }
+
+  #release-mob {
+    display: none !important;
+  }
+
+  #main-nav-setting {
+    display: none !important;
+  }
+
+  #bg-bubbles-team-nav {
+    display: none !important;
+  }
+
+  #footer-bottom-mob {
+    display: none !important;
+  }
+  #about-text-sec-mob {
+    display: none !important;
+  }
+}
+// Change to 435 when sll done
+
+@media screen and (max-width: 430px) {
+  .text-base {
+    font-size: 11.308px !important;
+    font-weight: 300 !important;
+  }
+  #img-faq-normal {
+    display: none;
+  }
+  #img4 {
+    display: none;
+  }
+  #img5 {
+    display: none;
+  }
+  #team {
+    margin-top: 40vh !important;
+  }
+  #team-item-div h5 {
+    font-size: 13pt;
+  }
+  #team-item-div h6 {
+    font-size: 11pt !important;
+  }
+  #team-item-div a img {
+    width: 80% !important;
+  }
+  #nav-bubbles-token {
+    margin-top: 80% !important;
+  }
+  #animation-hide {
+    display: none !important;
+  }
+  #purplePlanet {
+    display: none !important;
+  }
+  .footer-bg {
+    min-height: 70vh !important;
+  }
+  #planets-normal {
+    display: none !important;
+  }
+  #Nav-Pill-main {
+    display: none !important;
+  }
+  .bg-lock .image {
+    width: 40% !important;
+    margin-left: 15.8%;
+    margin-top: -1vh !important;
+  }
+
+  .bg-unlock {
+    width: 56% !important;
+  }
+
+  #about-text-sec {
+    display: none !important;
+  }
+  #Progres-Img-Tokenomics {
+    width: 85% !important;
+  }
+
+  #FAQ-Toggle-Heading {
+    font-size: 17px !important;
+  }
+
+  #footer-bottom-main {
+    display: none !important;
+  }
+
+  #FAQ-Heading {
+    font-size: 30px;
+  }
+
+  #Heading-Team {
+    display: none !important;
+  }
+
+  .imagemap {
+    margin-top: -20vh;
+  }
+
+  #no-title {
+    left: 4.3vw !important;
+    top: 3.54vh !important;
+    width: 86%;
+  }
+
+  #release-main {
+    display: none !important;
+  }
+
+  .footer-bg {
+    background-size: contain !important;
+    background-repeat: repeat-y;
+  }
+
+  #partners-main {
+    padding-top: 4rem !important;
+  }
+
+  #green-left-partner,
+  #green-ball-partner,
+  #img1,
+  #img2,
+  #img3,
+  #partner-heading {
+    display: none !important;
+  }
+
+  #bg-bubbles-team {
+    display: none !important;
+  }
+
+  #heading {
+    display: none !important;
+  }
+
+  // #team {
+  //   background-size: contain !important;
+  // }
+
+  .team-list {
+    display: none;
+  }
+
+  #main-partner {
+    display: none !important;
+  }
+
+  .banner-normal {
+    display: none;
+  }
+
+  .banner-nav {
+    display: flex !important;
+  }
+
+  #footer-logo {
+    width: 259.19px;
+    top: 5vh !important;
+  }
+
+  #kava-btn div {
+    margin-left: 9% !important;
+    width: 100% !important;
+    left: 18% !important;
+    margin-top: 26em !important;
+  }
+
+  #button-top {
+    display: grid;
+    margin-left: 8vw;
+  }
+  // .road-map-mobile {
+  //   height: 220vh !important;
+  // }
+
+  #road-data-head {
+    top: -4%;
+  }
+  #road-data-head {
+    left: 27% !important;
+  }
+
+  #road-head {
+    left: 0% !important;
+  }
+
+  // #road-line {
+  //   width: 42.5px !important;
+  //   top: 40vh;
+  // }
+
+  #road-date {
+    width: 217.265px !important;
+  }
+  #about {
+    margin-bottom: -87% !important;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  #kava {
+    margin-left: 1% !important;
+  }
+  #hero {
+    margin-top: -80% !important;
+  }
+
+  #footer-logo {
+    width: 259.19px;
+    top: 3vh !important;
+  }
+  .imagemap {
+    margin-top: -15vh;
+  }
+  .road-map-mobile {
+    background-size: cover;
+  }
+  #roundCard-nav-token {
+    padding-bottom: 30vh !important;
+  }
+  .chart {
+    margin-top: 2vh !important;
+  }
+  #nav-bubbles-token {
+    margin-top: 80% !important;
+  }
+  .content-about::before,
+  .content-about::after {
+    display: none !important;
+  }
+  .about-main {
+    margin-bottom: -16vh !important;
+  }
+  #hero-img-mob {
+    top: 50vh !important;
+  }
+  #button-top {
+    margin-left: 1vw;
+    // margin-top: 35vh !important;
+  }
+
+  #text-feild {
+    margin-left: 0vw !important;
+    margin-top: 8px !important;
+  }
+
+  #no-title {
+    left: 4.34vw !important;
+    top: 2vh !important;
+    width: 86.2%;
+  }
+
+  // .tokenomic-lines {
+  //   margin-top: -104% !important;
+  // }
+
+  #Progres-Img-Tokenomics {
+    width: 100% !important;
+  }
+
+  // .road-map-mobile {
+  //   height: 150vh !important;
+  // }
+
+  #road-head {
+    width: 50% !important;
+  }
+  #nav-planet-mob {
+    margin-top: 16vh !important;
+  }
+  // #road-line {
+  //   width: 40.5px !important;
+  //   top: 37.8vh;
+  // }
+
+  #road-date {
+    width: 50vw !important;
+  }
+
+  #FAQ-Toggle-Heading {
+    font-size: 12.178px !important;
+    font-weight: 600 !important;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  #kava {
+    margin-left: -8% !important;
+  }
+  #hero {
+    margin-top: -10% !important;
+    left: -2vw !important;
+  }
+  #button-top {
+    // margin-top: 50vh !important;
+  }
+
+  #footer-logo {
+    width: 259.19px;
+    top: 3vh !important;
+  }
+  .imagemap {
+    margin-top: -15vh;
+  }
+  .road-map-mobile {
+    background-size: cover;
+  }
+  #roundCard-nav-token {
+    padding-bottom: 30vh !important;
+  }
+  .chart {
+    margin-top: 2vh !important;
+  }
+  #nav-bubbles-token {
+    margin-top: 80% !important;
+  }
+  .content-about::before,
+  .content-about::after {
+    display: none !important;
+  }
+  .about-main {
+    margin-bottom: -16vh !important;
+  }
+  #hero-img-mob {
+    top: 50vh !important;
+  }
+
+  #text-feild {
+    margin-left: -2vw !important;
+    margin-top: 8px !important;
+  }
+
+  #no-title {
+    left: 4.34vw !important;
+    top: 3vh !important;
+    width: 86.2%;
+  }
+
+  // .tokenomic-lines {
+  //   margin-top: -50% !important;
+  // }
+
+  #Progres-Img-Tokenomics {
+    width: 100% !important;
+  }
+
+  // .road-map-mobile {
+  //   height: 230vh !important;
+  // }
+  #road-head {
+    width: 50% !important;
+  }
+
+  #road-date {
+    width: 55vw !important;
+  }
+  #nav-planet-mob {
+    margin-top: 25vh !important;
+  }
+  #FAQ-Toggle-Heading {
+    font-size: 12.178px !important;
+    font-weight: 600 !important;
+  }
+
+  #bg-waves-hero {
+    margin-top: 31vh !important;
+  }
+  #about {
+    margin-bottom: -87% !important;
+  }
+}
+@media screen and (max-width: 390px) {
+  #kava {
+    margin-left: -9% !important;
+  }
+  #hero {
+    margin-top: -80% !important;
+  }
+
+  #footer-logo {
+    width: 259.19px;
+    top: 3vh !important;
+  }
+  .imagemap {
+    margin-top: -15vh;
+  }
+  // .road-map-mobile {
+  //   height: 175vh !important;
+  // }
+  // .footer-bg {
+  //   min-height: 50vh !important;
+  // }
+  #about {
+    margin-bottom: -87% !important;
+  }
+  #roundCard-nav-token {
+    padding-bottom: 30vh !important;
+  }
+  .chart {
+    margin-top: 2vh !important;
+  }
+  // #nav-bubbles-token {
+  //   margin-top: 80% !important;
+  // }
+  .content-about::before,
+  .content-about::after {
+    display: none !important;
+  }
+  .about-main {
+    margin-bottom: -16vh !important;
+  }
+  #hero-img-mob {
+    top: 50vh !important;
+  }
+  #button-top {
+    // top: 35 !important;
+    margin-left: 1vw;
+  }
+
+  #text-feild {
+    margin-left: 0vw !important;
+    margin-top: 8px !important;
+  }
+
+  #no-title {
+    left: 4.34vw !important;
+    top: 2vh !important;
+    width: 86.2%;
+  }
+
+  // .tokenomic-lines {
+  //   margin-top: -94% !important;
+  // }
+
+  #Progres-Img-Tokenomics {
+    width: 100% !important;
+  }
+
+  #FAQ-Toggle-Heading {
+    font-size: 12.178px !important;
+    font-weight: 600 !important;
+  }
+
+  #bg-waves-hero {
+    margin-top: 31vh !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #kava {
+    margin-left: -13% !important;
+  }
+  #hero {
+    margin-top: -45% !important;
+  }
+  #footer-logo {
+    width: 259.19px;
+    top: 3vh !important;
+  }
+  .imagemap {
+    margin-top: -15vh;
+  }
+  #button-top {
+    // margin-top: 47vh !important;
+  }
+  .road-map-mobile {
+    background-size: cover;
+  }
+  #roundCard-nav-token {
+    padding-bottom: 30vh !important;
+  }
+  .chart {
+    margin-top: 2vh !important;
+  }
+  #nav-bubbles-token {
+    margin-top: 80% !important;
+  }
+  .content-about::before,
+  .content-about::after {
+    display: none !important;
+  }
+  .about-main {
+    margin-bottom: -16vh !important;
+  }
+  // #hero-img-mob {
+  //   top: 50vh  !important;
+  // }
+
+  #text-feild {
+    margin-left: -3vw !important;
+    margin-top: 8px !important;
+  }
+
+  #no-title {
+    left: 4.34vw !important;
+    top: 3.1vh !important;
+    width: 86.2%;
+  }
+
+  // .tokenomic-lines {
+  //   margin-top: -34% !important;
+  // }
+  .centerBtnMob {
+    margin-left: 4% !important;
+  }
+  #Progres-Img-Tokenomics {
+    width: 100% !important;
+  }
+
+  // .road-map-mobile {
+  //   height: 205vh !important;
+  // }
+
+  #FAQ-Toggle-Heading {
+    font-size: 12.178px !important;
+    font-weight: 600 !important;
+  }
+
+  #bg-waves-hero {
+    margin-top: 31vh !important;
+  }
+
+  #road-data-head {
+    top: -3%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #kava {
+    margin-left: -18% !important;
+  }
+  #hero {
+    margin-top: -70% !important;
+  }
+  // #hero-img-mob {
+  //   top: 60vh !important;
+  // }
+
+  // #kava-btn div {
+  //   margin-left: -2% !important;
+  //   width: 100% !important;
+  //   left: 29% !important;
+  //   margin-top: 21em !important;
+  // }
+
+  // #kava-btn div a img {
+  //   width: 90vw !important;
+  // }
+
+  #text-feild {
+    margin-left: 0vw !important;
+  }
+
+  #no-title {
+    left: 4.34vw !important;
+    top: 2vh !important;
+    width: 86.2%;
+  }
+
+  .tokenomic-lines {
+    margin-top: -44% !important;
+  }
+
+  #Progres-Img-Tokenomics {
+    width: 100% !important;
+  }
+
+  #road-line {
+    width: 39.5px !important;
+    // top: 39.8vh!important
+  }
+  //  .road-map-mobile {
+  //   height: 235vh !important
+  // }
+  #road-date {
+    top: 40vh !important;
+  }
+  #nav-planet-mob {
+    margin-top: 18vh;
+  }
+  #FAQ-Heading {
+    font-size: 27px !important;
+  }
+  #FAQ-Toggle-Heading {
+    font-size: 11.178px !important;
+    font-weight: 600 !important;
+  }
+
+  #bg-waves-hero {
+    margin-top: 31vh !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #button-top {
+    margin-top: 24em !important;
+    margin-left: 9vw !important;
+  }
+  .gap-x-28 {
+    column-gap: 6.1rem !important;
+  }
+  #kava {
+    margin-left: -30% !important;
+  }
+  #hero {
+    margin-top: -40% !important;
+  }
+
+  #kava-btn div a img {
+    width: 90vw !important;
+  }
+
+  #text-feild {
+    margin-left: -3vw !important;
+    margin-top: -5vh !important;
+  }
+
+  #no-title {
+    left: 4.34vw !important;
+    top: 2.64vh !important;
+    width: 86.2%;
+  }
+
+  .imagemap {
+    margin-top: -24vh !important;
+  }
+
+  #team-item-div h6 {
+    font-size: 16px !important;
+  }
+
+  #team-item-div h5 {
+    font-size: 16px !important;
+  }
+
+  .tokenomic-lines {
+    margin-top: -59% !important;
+  }
+
+  #nav-bubbles-token {
+    margin-top: 45vh !important;
+  }
+
+  #roundCard-nav-token {
+    padding-bottom: 30vh !important;
+  }
+
+  .chart-div {
+    margin-top: none !important;
+  }
+
+  #Progres-Img-Tokenomics {
+    width: 100% !important;
+  }
+
+  #road-line {
+    width: 39.5px !important;
+    top: 39.8vh;
+  }
+
+  #road-date {
+    width: 200.265px !important;
+  }
+
+  #road-data-head {
+    margin-left: -6vw !important;
+  }
+  #FAQ-Heading {
+    font-size: 25px !important;
+  }
+  #extra-space-footer-mob {
+  }
+  #FAQ-Toggle-Heading {
+    font-size: 12.178px !important;
+    font-weight: 600 !important;
+  }
+
+  #bg-waves-hero {
+    margin-top: 31vh !important;
+  }
+}

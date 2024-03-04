@@ -1,0 +1,57 @@
+@keyframes slideUpDown {
+  0% {
+    transform: translateY(-100%);
+    /* Start off the screen, above the viewport */
+    opacity: 0;
+    /* Start invisible */
+  }
+
+  100% {
+    transform: translateY(0);
+    /* Slide down to the original position */
+    opacity: 1;
+    /* Fully visible at the end */
+  }
+}
+
+@keyframes SlideLeft {
+  0% {
+    transform: translateX(-100%);
+    /* Start off the screen, above the viewport */
+    opacity: 0;
+    /* Start invisible */
+  }
+
+  100% {
+    transform: translateX(0);
+    /* Slide down to the original position */
+    opacity: 1;
+    /* Fully visible at the end */
+  }
+}
+
+[data-aos=token-side] {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+[data-aos=token-side].aos-animate {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-left-element {
+  /* animation: SlideLeft 2s ease-in-out !important;  Adjust the duration and timing function as needed */
+}
+
+.tokonomic-h1:before {
+  content: "";
+  text-align: center;
+  position: absolute;
+  width: 118px;
+  height: 1px;
+  bottom: 0;
+  right: 37.5%;
+  top: 1.7em;
+  border-bottom: 1px solid #2EBD85;
+}
