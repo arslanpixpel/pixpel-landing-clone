@@ -28,7 +28,7 @@ export const teamList = [
     job: "Media Producer",
     name: "Javier García",
     photo: require("../../../assets/team/javiar.png"),
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/javier-garcia-576bb6276",
   },
   {
     job: "Back End Developer",
