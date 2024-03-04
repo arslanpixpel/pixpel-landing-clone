@@ -46,7 +46,7 @@ export const teamList = [
     job: "Front End Developer",
     name: "Abdul Fatir",
     photo: require("../../../assets/team/fatir.png"),
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/abdulfatiransari",
   },
 ];
 
