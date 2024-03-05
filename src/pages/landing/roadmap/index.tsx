@@ -23,7 +23,7 @@ function Roadmap() {
 
   return (
 <div>
-<div className="main" id="roadmap" style={{ height: "200vh", background: "no-repeat", backgroundSize: "100vw 300vh", position: "relative", backgroundImage: `url(${redImage})`, width:"100%"}}>
+<div className="main" id="roadmap" style={{ background: "no-repeat", backgroundSize: "100vw 300vh", position: "relative", backgroundImage: `url(${redImage})`, width:"100%"}}>
       <div className="flex justify-center items-start" >
         <img id="road-head" src={imgHead} data-aos="fade-down" data-aos-delay="0" className="relative top-[74px] " alt="imgHead" />
       </div>

@@ -1,5 +1,5 @@
 import "../../../App.scss";
-import Chart from "../../../assets/images/bg-token.svg";
+import Chart from "../../../assets/images/tokenomics.svg";
 import lostiposmall from "../../../assets/images/3.png";
 import lostipohalf from "../../../assets/images/half-3.png";
 import roundedCard from "../../../assets/background/Round-shapes.png";
