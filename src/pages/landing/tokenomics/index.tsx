@@ -1,17 +1,18 @@
 import "../../../App.scss";
 import Chart from "../../../assets/images/tokenomics.svg";
-import lostiposmall from "../../../assets/images/3.png";
-import lostipohalf from "../../../assets/images/half-3.png";
+// import lostiposmall from "../../../assets/images/3.png";
+// import lostipohalf from "../../../assets/images/half-3.png";
 import roundedCard from "../../../assets/background/Round-shapes.png";
 import bgBubbles from "../../../assets/background/Bubbles.png";
 import AOS from "aos";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import "aos/dist/aos.css";
 import "../roadmap/index.css";
-import { useEffect, useState, useRef } from "react";
+import { useEffect } from "react";
 import { animateMe } from "../../../components/hook/helper";
 import "./index.css";
 import line from "../../../assets/images/Line 309.png";
+import ProgressBar from "./ProgressBar";
 
 function Tokenomics() {
   useEffect(() => {
@@ -80,15 +81,17 @@ function Tokenomics() {
             >
               <div
                 data-aos="token-side"
-                className="w-full flex justify-center md:w-1/2 "
+                className="w-full items-center"
+                style={{ gridAutoFlow: "column" }}
               >
-                <img
+                {/* <img
                   src={Chart}
                   data-aos-mirror="true"
                   alt="chart"
-                  className="my-auto chart "
+                  className="my-auto chart w-1/2"
                   title="chart"
-                />
+                /> */}
+                <ProgressBar />
               </div>
             </div>
           </div>

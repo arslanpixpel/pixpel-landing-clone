@@ -1,17 +1,16 @@
 import "../../../App.scss";
 import Concordium from "../../../assets/logo/partners/CONCORDIUM.png";
-import EVA from "../../../assets/logo/partners/EVA.png";
+import StartUp from "../../../assets/logo/partners/startup.png";
 import Applicature from "../../../assets/logo/partners/applicature.png";
 import Frame from "../../../assets/logo/partners/Frame.png";
-import InnMind from "../../../assets/logo/partners/InnMind.png";
 import lostipogoal from "../../../assets/images/5.png";
 import halfImage from "../../../assets/images/6.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import greenBallLeft from "../../../assets/images/green-balls-left.png";
 import greenBall from "../../../assets/images/green-ball.png";
-import React, { useEffect, useRef } from "react";
-import { motion, useAnimation } from "framer-motion";
+import { useEffect, useRef } from "react";
+import { useAnimation } from "framer-motion";
 import PartnerMob from "../mobileView/partner";
 import imgBgNav from "../../../assets/mobileNav/partner/bg-partner-nav.png";
 import bgPurpleNav from "../../../assets/mobileNav/partner/purple.png";
@@ -197,7 +196,7 @@ function Partners() {
 
             <div
               id="main-partner"
-              className="  grid md:grid-cols-2 sm:grid-cols-2 lg:gap-x-px sm:gap-x-20 gap-y-24 items-center justify-center w-full h-full"
+              className="  grid md:grid-cols-1 sm:grid-cols-2 lg:gap-x-px sm:gap-x-20 gap-y-24 items-center justify-center w-full h-full"
               data-aos="fade-right"
             >
               {/* <div className="  flex flex-col w-full mx-auto h-full items-center justify-center">
@@ -221,24 +220,24 @@ function Partners() {
               </div> */}
               <div className="  flex flex-col w-full mx-auto h-full items-center justify-center">
                 <a
-                  href="https://applicature.com"
+                  href="https://www.startupbootcamp.org/"
                   className="  justify-center text-white partners-card md:mb-[40px] sm:mb-2 md:text-[32px] sm:tex-sm mb-5"
                 >
                   Partner
                 </a>
                 <div className="  image-container">
-                  <a href="https://applicature.com" rel="Applicature">
+                  <a href="https://www.startupbootcamp.org/" rel="StartUp">
                     <img
                       id="partner-img"
-                      src={Applicature}
+                      src={StartUp}
                       alt="Applicature"
                       title="Applicature"
-                      className="  w-full applicated_hover"
+                      className="  w-full startup_hover"
                     />
                   </a>
                 </div>
               </div>
-              <div className="  flex flex-col w-full mx-auto h-full items-center justify-center">
+              {/* <div className="  flex flex-col w-full mx-auto h-full items-center justify-center">
                 <a
                   href="https://www.mempool.ventures"
                   className="  justify-center text-white partners-card md:mb-[40px] sm:mb-2 md:text-[32px] sm:tex-sm mb-5"
@@ -256,7 +255,7 @@ function Partners() {
                     />
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

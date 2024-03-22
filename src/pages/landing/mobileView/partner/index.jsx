@@ -8,6 +8,7 @@ import './style.css';
 import { Pagination } from 'swiper/modules';
 import Concordium from "../../../../assets/logo/partners/CONCORDIUM.png";
 import Applicature from "../../../../assets/logo/partners/applicature.png";
+import StartUp from "../../../../assets/logo/partners/startup.png";
 import Frame from "../../../../assets/logo/partners/Frame.png";
 import InnMind from "../../../../assets/logo/partners/InnMind.png";
 
@@ -15,11 +16,11 @@ import InnMind from "../../../../assets/logo/partners/InnMind.png";
 export default function PartnerMob() {
 
   const arr = [
-        { img: Concordium  , name: 'BlockChain' , hover : 'concordium_Image'},
+        { img: Concordium  , name: 'BlockChain',href: "https://concordium.com/developer-ecosystem/" , hover : 'concordium_Image'},
         // { img: EVA, name: 'Developers', hover : 'eva_hover' },
         // { img: InnMind , name: 'Accelerated By', hover : 'accelerated_hover' },
-        { img: Applicature , name: 'Partner', hover : 'applicated_hover' },
-        { img: Frame , name: 'Partner' , hover:'mempol_hover' }
+        { img: StartUp , name: 'Partner', href: "https://www.startupbootcamp.org/" ,hover : 'startup_hover:hover' },
+        // { img: Frame , name: 'Partner' , hover:'mempol_hover' }
       ];
       
     return (
@@ -69,13 +70,13 @@ export default function PartnerMob() {
           return <SwiperSlide key={key}>
             <div className="flex flex-col w-full mx-auto h-full items-center justify-center">
               <a
-                href="https://evacodes.com/"
+                href={val.href} 
                 className="justify-center text-white partners-card md:mb-[40px] sm:mb-2 md:text-[32px] sm:tex-sm mb-5"
               >
                 {val.name}
               </a>
               <div className="image-container">
-                <a href="https://evacodes.com" rel="eva">
+                <a href={val.href} rel={val.name}>
                   <img
                     id="partner-img" src={val.img} alt="eva" title="eva" className={`w-full ${val.hover}`} />
                 </a>
