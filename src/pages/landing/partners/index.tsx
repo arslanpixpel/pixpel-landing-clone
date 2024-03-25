@@ -1,8 +1,6 @@
 import "../../../App.scss";
 import Concordium from "../../../assets/logo/partners/CONCORDIUM.png";
 import StartUp from "../../../assets/logo/partners/startup.png";
-import Applicature from "../../../assets/logo/partners/applicature.png";
-import Frame from "../../../assets/logo/partners/Frame.png";
 import lostipogoal from "../../../assets/images/5.png";
 import halfImage from "../../../assets/images/6.png";
 import AOS from "aos";
@@ -199,25 +197,6 @@ function Partners() {
               className="  grid md:grid-cols-1 sm:grid-cols-2 lg:gap-x-px sm:gap-x-20 gap-y-24 items-center justify-center w-full h-full"
               data-aos="fade-right"
             >
-              {/* <div className="  flex flex-col w-full mx-auto h-full items-center justify-center">
-                <a
-                  href="https://innmind.com"
-                  className="  justify-center text-white partners-card md:mb-[40px] sm:mb-2 md:text-[32px] sm:tex-sm mb-5"
-                >
-                  Accelerated By
-                </a>
-                <div className="  image-container">
-                  <a href="https://innmind.com" rel="InnMind">
-                    <img
-                      id="partner-img"
-                      src={InnMind}
-                      alt="InnMind"
-                      title="InnMind"
-                      className="  w-full accelerated_hover"
-                    />
-                  </a>
-                </div>
-              </div> */}
               <div className="  flex flex-col w-full mx-auto h-full items-center justify-center">
                 <a
                   href="https://www.startupbootcamp.org/"
@@ -237,25 +216,6 @@ function Partners() {
                   </a>
                 </div>
               </div>
-              {/* <div className="  flex flex-col w-full mx-auto h-full items-center justify-center">
-                <a
-                  href="https://www.mempool.ventures"
-                  className="  justify-center text-white partners-card md:mb-[40px] sm:mb-2 md:text-[32px] sm:tex-sm mb-5"
-                >
-                  Partner
-                </a>
-                <div className="  partners-circle">
-                  <a href="https://www.mempool.ventures" rel="Frame">
-                    <img
-                      id="partner-img"
-                      src={Frame}
-                      alt="Frame"
-                      title="Frame"
-                      className="w-full mempol_hover"
-                    />
-                  </a>
-                </div>
-              </div> */}
             </div>
           </div>
         </div>

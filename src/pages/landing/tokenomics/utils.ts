@@ -1,6 +1,6 @@
 export const arr1 = [
   {
-    name: "Angles",
+    name: "Angels",
     percent: 10,
     color: "#D582E3",
   },
