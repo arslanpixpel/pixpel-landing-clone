@@ -162,10 +162,7 @@ function Partners() {
                   BlockChain
                 </a>
                 <div className="  image-container">
-                  <a
-                    href="https://www.concordium.com/"
-                    rel="Concordium"
-                  >
+                  <a href="https://www.concordium.com/" rel="Concordium">
                     <img
                       id="partner-img"
                       src={Concordium}
@@ -194,7 +191,7 @@ function Partners() {
 
             <div
               id="main-partner"
-              className="  grid md:grid-cols-1 sm:grid-cols-2 lg:gap-x-px sm:gap-x-20 gap-y-24 items-center justify-center w-full h-full"
+              className="  grid md:grid-cols-1 sm:grid-cols-1 lg:gap-x-px sm:gap-x-20 gap-y-24 items-center justify-center w-full h-full"
               data-aos="fade-right"
             >
               <div className="  flex flex-col w-full mx-auto h-full items-center justify-center">
