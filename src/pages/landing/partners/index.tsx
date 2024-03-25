@@ -156,14 +156,14 @@ function Partners() {
             >
               <div className=" flex flex-col w-full mx-auto h-full items-center justify-center">
                 <a
-                  href="https://concordium.com/developer-ecosystem/"
+                  href="https://www.concordium.com/"
                   className="  justify-center text-white partners-card md:mb-[40px] sm:mb-2 md:text-[32px] sm:tex-sm mb-5"
                 >
                   BlockChain
                 </a>
                 <div className="  image-container">
                   <a
-                    href="https://concordium.com/developer-ecosystem/"
+                    href="https://www.concordium.com/"
                     rel="Concordium"
                   >
                     <img
