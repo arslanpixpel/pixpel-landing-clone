@@ -9,7 +9,7 @@ const RoadMapMobile = () => {
   const arr = [1, 2, 3, 4, 5, 6, 7, 8];
   return (
     <div
-    className="py-20"
+    className="road-map-mobile py-20"
   style={{
     background: "no-repeat",
     backgroundSize: "100vw , contain",

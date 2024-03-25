@@ -11,6 +11,7 @@ import bottomBlur from "../../../assets/images/bottom-blur-roadmap.png";
 import "aos/dist/aos.css";
 import "./index.css";
 import { animateMe } from "../../../components/hook/helper";
+// import { obeserveMe } from "./scrollFunc";
 
 function Roadmap() {
   useEffect(() => {
@@ -98,3 +99,27 @@ function Roadmap() {
 }
 
 export default Roadmap;
+
+// import "../../../App.scss";
+// import redImage from "../../../assets/background/roadmap-background.png";
+// import imgHead from "../../../assets/background/RoadMap title.png";
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
+// import { useEffect } from "react";
+
+// function Roadmap() {
+// function Tokenomics() {
+//   useEffect(() => {
+//     AOS.init({ duration: 2000 });
+//   }, []);
+//   return (
+//     <div id="roadmap" style={{ height: "180vh", background: "no-repeat" , backgroundSize: "95vw 180vh" , position: "relative" , backgroundImage: `url(${redImage})`}}>
+//       <div className="flex justify-center items-start pt-16" >
+//         <img src={imgHead} />
+//       </div>
+//     </div>
+
+//   );
+// }
+
+// export default Roadmap;
