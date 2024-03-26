@@ -165,7 +165,7 @@ function Partners() {
                 </a>
                 <div className="  image-container">
                   <a
-                    href="https://concordium.com/developer-ecosystem/"
+                    href="https://www.concordium.com/"
                     rel="Concordium"
                   >
                     <img
